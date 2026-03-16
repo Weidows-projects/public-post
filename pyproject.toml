@@ -1,32 +1,7 @@
-[tool.poetry]
-name = "python"
+[project]
+name = "public-post"
 version = "0.1.0"
-description = ""
-authors = ["Weidows <utsuko27@qq.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.10"
-pygame = "^2.4.0"
-jupyter = "^1.0.0"
-mq-http-sdk = "^1.0.3"
-softposit = "^0.3.4.4"
-pymixbox = "^2.0.0"
-numpy = "^1.25.2"
-pandas = "^2.1.0"
-matplotlib = "^3.7.2"
-seaborn = "^0.12.2"
-joypy = "^0.2.6"
-
-[[tool.poetry.source]]
-name = "tsinghua"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-default = true
-secondary = false
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-#[tool.setuptools]
-#py-modules = ["numpy", "branding"]
+requires-python = ">=3.12"
+dependencies = []
