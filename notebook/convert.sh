@@ -3,7 +3,7 @@
  # @Author: Weidows
  # @Date: 2022-04-11 15:43:05
  # @LastEditors: Weidows
- # @LastEditTime: 2022-09-09 10:33:17
+ # @LastEditTime: 2026-03-16 23:40:11
  # @FilePath: \Blog-private\source\_posts\public-post\notebook\convert.sh
  # @Description:
  # @!: *********************************************************************
@@ -18,7 +18,8 @@ paths=(
   # .
   # .
   # .
-  # ../../python
+  # ../../lang/python
+  ../../lang/python/AI
 )
 
 name=(
@@ -27,14 +28,16 @@ name=(
   # MM-Detection
   # 伪随机数发生器
   # 杂
+  fine-tune
 )
 
 dist=(
-  # ../../python/code
-  # ../../python/code
-  # ../../python/code
-  # ../../python/code
-  # ../../python
+  # ../../lang/python/code
+  # ../../lang/python/code
+  # ../../lang/python/code
+  # ../../lang/python/code
+  # ../../lang/python
+  ../../lang/python/AI
 )
 
 for i in "${!paths[@]}"; do
